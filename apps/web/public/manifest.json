@@ -1,11 +1,11 @@
 {
-  "name": "Lucrix Sports Betting Intelligence",
-  "short_name": "Lucrix",
-  "description": "Professional-grade sports betting analytics and intelligence platform",
+  "name": "Game DNA",
+  "short_name": "Game DNA",
+  "description": "Independent game forecasts, alternate-line probabilities, and parlay construction",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#080810",
-  "theme_color": "#0f1117",
+  "background_color": "#07110e",
+  "theme_color": "#07110e",
   "orientation": "portrait",
   "icons": [
     {

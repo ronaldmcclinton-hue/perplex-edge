@@ -18,6 +18,7 @@ import { DataFreshnessProvider } from "@/context/DataFreshnessContext";
 import StatusBar from "@/components/shared/StatusBar";
 import PrefetchWrapper from "@/components/shared/PrefetchWrapper";
 import GlobalHelp from "@/components/shared/GlobalHelp";
+import { Providers } from "@/components/Providers";
 
 export default function AppLayout({
     children,
@@ -25,6 +26,7 @@ export default function AppLayout({
     children: React.ReactNode;
 }) {
     return (
+        <Providers>
         <SportProvider>
             <DataFreshnessProvider>
             <SubscriptionProvider>
@@ -67,5 +69,6 @@ export default function AppLayout({
             </SubscriptionProvider>
             </DataFreshnessProvider>
         </SportProvider>
+        </Providers>
     );
 }

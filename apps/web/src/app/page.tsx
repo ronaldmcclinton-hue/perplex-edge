@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation";
+import GameDNAApp from "@/components/game-dna/GameDNAApp";
 
 export default function RootPage() {
-    redirect("/scanner");
+    return <GameDNAApp />;
 }
